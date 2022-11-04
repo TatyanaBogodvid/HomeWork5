@@ -2,11 +2,11 @@ public class Main {
     public static void main(String[] args) {
         //Задача 1
         System.out.println("Задача 1");
-        int IOS = 0;
-        int Android = 1;
+        int iOS = 0;
+        int android = 1;
         int clientOS = 1;
-        if(clientOS == IOS) {
-            System.out.println("Установите версию приложения для IOS по ссылке");
+        if(clientOS == iOS) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
         } else {
             System.out.println("Установите версию для Android по ссылке");
         }
@@ -15,13 +15,13 @@ public class Main {
         System.out.println("Задача 2");
         int deviceYear = 2015;
         int clientDeviceYear = 2016;
-        if(clientOS == IOS && clientDeviceYear >= deviceYear) {
+        if(clientOS == iOS && clientDeviceYear >= deviceYear) {
             System.out.println("Установите версию приложения для IOS по ссылке");
-        } else if(clientOS == Android && clientDeviceYear >= deviceYear) {
+        } else if(clientOS == android && clientDeviceYear >= deviceYear) {
             System.out.println("Установите версию для Android по ссылке");
-        } else if (clientOS == IOS && clientDeviceYear <= deviceYear) {
+        } else if (clientOS == iOS && clientDeviceYear <= deviceYear) {
             System.out.println("Установите облегченную версию приложения для IOS по ссылке");
-        } else if (clientOS == Android && clientDeviceYear <= deviceYear){
+        } else if (clientOS == android && clientDeviceYear <= deviceYear){
             System.out.println("Установите облегченную версию для Android по ссылке");
         }
 
@@ -91,7 +91,7 @@ public class Main {
                 System.out.println("Декабрь. Зима");
                 break;
             default:
-                System.out.println("Такого месяа не существует");
+                System.out.println("Такого месяца не существует");
         }
     }
 }
